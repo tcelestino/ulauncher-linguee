@@ -1,0 +1,20 @@
+{
+  "manifest_version": "2",
+  "api_version": "1",
+  "name": "Linguee",
+  "description": "Find definitions of words with a simple keyword",
+  "developer_name": "Tiago Celestino",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.01
+  },
+  "preferences": [
+    {
+      "id": "keyword",
+      "type": "keyword",
+      "name": "Linguee",
+      "description": "Define words",
+      "default_value": "linguee"
+    }
+  ]
+}
