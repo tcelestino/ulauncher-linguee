@@ -31,7 +31,7 @@ class KeywordQueryEventListener(EventListener):
                 ExtensionResultItem(
                     icon='images/icon.png',
                     name='Define words on Linguee',
-                    description='Define word "{}".'.format(event.get_argument()),
+                    description='Define words "{}".'.format(event.get_argument()),
                     on_enter=OpenUrlAction(
                         'https://www.linguee.com/english-portuguese/search?{}'.format(urlencode({ 'source': 'auto', 'query': event.get_argument() }))
                     )

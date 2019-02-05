@@ -2,7 +2,7 @@
   "manifest_version": "2",
   "api_version": "1",
   "name": "Linguee",
-  "description": "Find definitions of words with a simple keyword",
+  "description": "Definitions words with a simple keyword",
   "developer_name": "Tiago Celestino",
   "icon": "images/icon.png",
   "options": {
