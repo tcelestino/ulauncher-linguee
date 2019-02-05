@@ -4,7 +4,11 @@
 
 ## Demo
 
-[Create gif]
+### English -> Brazilian Portuguese
+![ulauncher-linguee en to pt-br](https://raw.githubusercontent.com/tcelestino/ulauncher-linguee/master/english-br_portuguese.gif)
+
+### Brazilian Portuguese -> English
+![ulauncher-linguee pt-br to en](https://raw.githubusercontent.com/tcelestino/ulauncher-linguee/master/br_portuguese-english.gif)
 
 ## Features
 
