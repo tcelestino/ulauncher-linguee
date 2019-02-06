@@ -1,6 +1,6 @@
 # ulauncher-linguee
 
-> Simple [Ulauncher](http://ulauncher.io) extensions that allows you to find to defintion words using Linguee's dictionary.
+> Simple [Ulauncher](http://ulauncher.io) extension allows you to find the defintion of words using Linguee's dictionary.
 
 ## Demo
 
@@ -8,12 +8,12 @@
 
 ## Features
 
-You can find to defintion words using `linguee <query>` and it opens the browser when you hit enter. At moment you can only find to defintions in:
+You can find the defintion of words using `linguee <query>` and it opens the browser when you hit enter. So far you can only find the definitions in:
 
-  - english -> brazilian portuguese
-  - brazilian portuguese -> english
+  - English -> Brazilian Portuguese
+  - Brazilian Portuguese -> English
 
-I'm working to show in the others languages.
+I'm working to add definitions in the other languages.
 
 ## Installation
 
