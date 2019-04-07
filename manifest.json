@@ -15,6 +15,20 @@
       "name": "Linguee",
       "description": "Define of words",
       "default_value": "linguee"
+    },
+    {
+      "id": "lang0",
+      "type": "input",
+      "name": "First languange",
+      "description": "First languange to translate to / from",
+      "default_value": "portuguese"
+    },
+    {
+      "id": "lang1",
+      "type": "input",
+      "name": "Second language",
+      "description": "Second languange to translate to / from",
+      "default_value": "english"
     }
   ]
 }
