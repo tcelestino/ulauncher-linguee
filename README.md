@@ -8,12 +8,7 @@
 
 ## Features
 
-You can find the defintion of words using `linguee <query>` and it opens the browser when you hit enter. So far you can only find the definitions in:
-
-  - English -> Brazilian Portuguese
-  - Brazilian Portuguese -> English
-
-I'm working to add definitions in the other languages.
+You can find the defintion of words using `linguee <query>` and it opens the browser when you hit enter. You can change the default languages in the preferences.
 
 ## Installation
 

@@ -19,7 +19,6 @@ class LingueeExtension(Extension):
         super(LingueeExtension, self).__init__()
         self.subscribe(KeywordQueryEvent, KeywordQueryEventListener())
 
-
 class KeywordQueryEventListener(EventListener):
 
     def on_event(self, event, extension):
@@ -33,7 +32,7 @@ class KeywordQueryEventListener(EventListener):
                     name='Define words on Linguee',
                     description='Define words "{}".'.format(event.get_argument()),
                     on_enter=OpenUrlAction(
-                        'https://www.linguee.com/english-portuguese/search?{}'.format(urlencode({ 'source': 'auto', 'query': event.get_argument() }))
+                        'https://www.linguee.com/' + extension.preferences["lang0"] + "-" + extension.preferences["lang1"] + '/search?{}'.format(urlencode({ 'source': 'auto', 'query': event.get_argument() }))
                     )
                 )
             )
