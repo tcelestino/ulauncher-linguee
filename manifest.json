@@ -27,7 +27,7 @@
       "id": "lang1",
       "type": "input",
       "name": "Second language",
-     "description": "Second language to translate to / from",
+      "description": "Second language to translate to / from",
       "default_value": "english"
     }
   ]
