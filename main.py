@@ -1,4 +1,4 @@
-import urllib
+import urllib.request, urllib.parse, urllib.error
 import logging
 
 from ulauncher.api.client.Extension import Extension
@@ -11,7 +11,7 @@ from ulauncher.api.shared.action.OpenUrlAction import OpenUrlAction
 LOGGER = logging.getLogger(__name__)
 
 def urlencode(q):
-    return urllib.urlencode(q)
+    return urllib.parse.urlencode(q)
 
 class LingueeExtension(Extension):
 
