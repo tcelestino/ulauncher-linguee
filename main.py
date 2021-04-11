@@ -49,7 +49,7 @@ class KeywordQueryEventListener(EventListener):
                 items.append(
                     ExtensionResultItem(
                         icon='images/icon.png',
-                        name='Know problem',
+                        name='Known problem',
                         description='See https://github.com/imankulov/linguee-api/issues/3',
                         on_enter=CopyToClipboardAction('https://github.com/imankulov/linguee-api/issues/3')
                     )
