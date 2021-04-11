@@ -10,3 +10,5 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+/.idea/
+/Pipfile
