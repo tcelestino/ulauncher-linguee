@@ -5,7 +5,7 @@
   "developer_name": "Tiago Celestino",
   "icon": "images/icon.png",
   "options": {
-    "query_debounce": 0.01
+    "query_debounce": 0.5
   },
   "preferences": [
     {
