@@ -23,11 +23,25 @@
       "default_value": "portuguese"
     },
     {
+      "id": "lang02letter",
+      "type": "input",
+      "name": "First language 2 Letter",
+      "description": "First language to translate to / from",
+      "default_value": "pt"
+    },
+    {
       "id": "lang1",
       "type": "input",
       "name": "Second language",
       "description": "Second language to translate to / from",
       "default_value": "english"
+    },
+    {
+      "id": "lang12letter",
+      "type": "input",
+      "name": "Second language 2 Letter",
+      "description": "Second language to translate to / from",
+      "default_value": "en"
     }
   ]
 }
